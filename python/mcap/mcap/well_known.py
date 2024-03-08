@@ -24,6 +24,7 @@ class SchemaEncoding:
     ROS2 = "ros2msg"
     ROS2IDL = "ros2idl"
     JSONSchema = "jsonschema"
+    DBC = "dbc"
 
 
 class MessageEncoding:
@@ -35,3 +36,4 @@ class MessageEncoding:
     Flatbuffer = "flatbuffer"
     CBOR = "cbor"
     JSON = "json"
+    CAN = "can"
